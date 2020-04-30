@@ -1,3 +1,9 @@
+/**
+ * 查看git更新
+ *
+ *
+ */
+
 package zhihai.partycamera_e1;
 
 import android.Manifest;
@@ -15,6 +21,8 @@ import cameralibrary.model.AspectRatio;
 import filterlibrary.glfilter.resource.FilterHelper;
 import filterlibrary.glfilter.resource.ResourceHelper;
 import utilslibrary.utils.PermissionUtils;
+import zhihai.partycamera_e1.R;
+import zhihai.partycamera_e1.SpeedRecordActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 

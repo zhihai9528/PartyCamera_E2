@@ -346,7 +346,7 @@ public class CameraPreviewPresenter extends PreviewPresenter<CameraPreviewFragme
                 + ", height - " + mCameraController.getPreviewHeight());
                         mCameraController.getOrientation(),
                         mCameraController.getPreviewWidth(),
-                        mCameraController.getPreviewHeight());
+                        mCameraController.getPreviewHeight();
     }
 
     // ------------------------- Camera 输出SurfaceTexture准备完成回调 -------------------------------
