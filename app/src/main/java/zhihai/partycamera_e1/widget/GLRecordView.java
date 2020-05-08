@@ -20,7 +20,7 @@ import android.widget.ImageView;
 import androidx.core.view.GestureDetectorCompat;
 
 import zhihai.partycamera_e1.R;
-import utilslibrary.utils.DensityUtils;
+import library.utilslibrary.utils.DensityUtils;
 
 
 /**

@@ -32,7 +32,10 @@
         android:supportsRtl="true"
         android:theme="@style/NoActionBarTheme">
 
-        <activity android:name="zhihai.partycamera_e1.MainActivity">
+        <activity android:name=".activity.VideoPlayerActivity"/>
+        <activity android:name=".activity.MusicPlayerActivity" />
+
+        <activity android:name=".activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -40,8 +43,11 @@
             </intent-filter>
         </activity>
 
+        <activity android:name=".activity.SpeedRecordActivity"
+            android:theme="@style/NoActionBarTheme"/>
+        <activity android:name=".activity.MusicMergeActivity" />
         <activity
-            android:name="zhihai.partycamera_e1.SpeedRecordActivity"
+            android:name=".activity.FFMediaRecordActivity"
             android:theme="@style/NoActionBarTheme" />
 
         <meta-data

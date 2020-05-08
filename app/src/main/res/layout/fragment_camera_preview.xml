@@ -7,17 +7,17 @@
     android:background="@color/video_window_background">
 
     <!-- 预览视图 -->
-    <cameralibrary.widget.CameraMeasureFrameLayout
+    <library.cameralibrary.widget.CameraMeasureFrameLayout
         android:id="@+id/layout_camera_preview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent">
-    </cameralibrary.widget.CameraMeasureFrameLayout>
+    </library.cameralibrary.widget.CameraMeasureFrameLayout>
 
     <!--  倒计时  -->
-    <cameralibrary.widget.RecordCountDownView
+    <library.cameralibrary.widget.RecordCountDownView
         android:id="@+id/count_down_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -30,7 +30,7 @@
         app:layout_constraintBottom_toBottomOf="@id/layout_camera_preview"/>
 
     <!-- 录制进度条 -->
-    <cameralibrary.widget.RecordProgressView
+    <library.cameralibrary.widget.RecordProgressView
         android:id="@+id/record_progress"
         android:layout_width="match_parent"
         android:layout_height="@dimen/dp6"
@@ -55,7 +55,7 @@
         app:layout_constraintTop_toTopOf="@id/layout_camera_preview"/>
 
     <!--  顶部布局  -->
-    <cameralibrary.widget.CameraPreviewTopbar
+    <library.cameralibrary.widget.CameraPreviewTopbar
         android:id="@+id/camera_preview_topbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -65,7 +65,7 @@
         app:layout_constraintTop_toTopOf="@id/layout_camera_preview"/>
 
     <!-- 速度选择条 -->
-    <cameralibrary.widget.RecordSpeedLevelBar
+    <library.cameralibrary.widget.RecordSpeedLevelBar
         android:id="@+id/record_speed_bar"
         android:layout_width="match_parent"
         android:layout_height="@dimen/dp40"
@@ -78,7 +78,7 @@
         app:layout_constraintBottom_toTopOf="@+id/btn_record"/>
 
     <!-- 录制按钮 -->
-    <cameralibrary.widget.RecordButton
+    <library.cameralibrary.widget.RecordButton
         android:id="@+id/btn_record"
         android:layout_width="120dp"
         android:layout_height="120dp"
@@ -94,34 +94,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"/>
-
-
-    <!-- 贴纸 -->
-    <LinearLayout
-        android:id="@+id/btn_stickers"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:gravity="center_horizontal"
-        android:orientation="vertical"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@id/btn_record"
-        app:layout_constraintBottom_toBottomOf="@id/btn_record"
-        app:layout_constraintHorizontal_bias="0.15">
-
-        <ImageView
-            android:id="@+id/iv_stickers"
-            android:layout_width="@dimen/preview_sticker_size"
-            android:layout_height="@dimen/preview_sticker_size"
-            android:background="@drawable/ic_camera_sticker_light"/>
-        <TextView
-            android:id="@+id/tv_stickers"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="@color/white"
-            android:text="@string/btn_stickers"
-            android:textSize="@dimen/dp12"/>
-    </LinearLayout>
 
     <!-- 上传媒体 -->
     <LinearLayout
@@ -191,7 +163,7 @@
     </LinearLayout>
 
     <!-- 底部指示器 -->
-    <widgetlibrary.widget.CameraTabView
+    <library.widgetlibrary.widget.CameraTabView
         android:id="@+id/tl_camera_tab"
         android:layout_width="match_parent"
         android:layout_height="@dimen/camera_tab_height"

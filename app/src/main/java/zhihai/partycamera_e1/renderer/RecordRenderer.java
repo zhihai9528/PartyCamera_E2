@@ -8,13 +8,13 @@ import android.opengl.GLSurfaceView;
 
 import androidx.annotation.NonNull;
 
-import filterlibrary.glfilter.base.GLImageFilter;
-import filterlibrary.glfilter.base.GLImageOESInputFilter;
-import filterlibrary.glfilter.color.GLImageDynamicColorFilter;
-import filterlibrary.glfilter.color.bean.DynamicColor;
-import filterlibrary.glfilter.multiframe.GLImageDrosteFilter;
-import filterlibrary.glfilter.utils.OpenGLUtils;
-import filterlibrary.glfilter.utils.TextureRotationUtils;
+import library.filterlibrary.glfilter.base.GLImageFilter;
+import library.filterlibrary.glfilter.base.GLImageOESInputFilter;
+import library.filterlibrary.glfilter.color.GLImageDynamicColorFilter;
+import library.filterlibrary.glfilter.color.bean.DynamicColor;
+import library.filterlibrary.glfilter.multiframe.GLImageDrosteFilter;
+import library.filterlibrary.glfilter.utils.OpenGLUtils;
+import library.filterlibrary.glfilter.utils.TextureRotationUtils;
 import zhihai.partycamera_e1.presenter.RecordPresenter;
 
 import java.lang.ref.WeakReference;

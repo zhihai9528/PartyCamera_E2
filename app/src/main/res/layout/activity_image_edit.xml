@@ -5,6 +5,6 @@
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="imagelibrary.activity.ImageEditActivity">
+    tools:context="library.imagelibrary.activity.ImageEditActivity">
 
 </androidx.constraintlayout.widget.ConstraintLayout>

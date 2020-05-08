@@ -1,9 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+
+    <!-- Mainactivity -->
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
 
+
+
+
+    <!--Cameralibrary-->
+
+    <!-- popup页面字体选中颜色 -->
+    <color name="popup_text_normal">#333333</color>
+    <color name="popup_text_select">@color/gold</color>
+    <color name="popup_text_color">@color/white</color>
+    <color name="popup_background">#55FFFFFF</color>
+
+    <!-- 快门颜色 -->
+    <color name="shutter_gray_dark">#EE2A2A2A</color>
+    <color name="shutter_gray_light">#AA696969</color>
+    <color name="shutter_blue">#3394EC</color>
+    <color name="shutter_green">#90EE90</color>
+
+    <!-- 录制按钮颜色 -->
+    <color name="record_red">@color/red</color>
+    <color name="record_stroke_red">#66FF0000</color>
+
+    <!-- 特效选择页面背景颜色 -->
+    <color name="effect_title_background">#AA696969</color>
+    <color name="effect_content_background">#AA808080</color>
+
+
+
+
+    <!--pickerlibrary -->
+    <color name="picker_type_color">@color/gray</color>
+    <color name="capture_item_color">#60EEEEEE</color>
+
+
+
+
+    <!--Utilslibrary -->
 
     <color name="effect_item_color">#60EEEEEE</color>
 
@@ -156,26 +195,6 @@
     <color name="navy">#000080</color>                  <!--海军色 -->
     <color name="black">#000000</color>                 <!--黑色 -->
 
-<!--cameralibrary-->
-    <!-- popup页面字体选中颜色 -->
-    <color name="popup_text_normal">#333333</color>
-    <color name="popup_text_select">@color/gold</color>
-    <color name="popup_text_color">@color/white</color>
-    <color name="popup_background">#55FFFFFF</color>
-
-    <!-- 快门颜色 -->
-    <color name="shutter_gray_dark">#EE2A2A2A</color>
-    <color name="shutter_gray_light">#AA696969</color>
-    <color name="shutter_blue">#3394EC</color>
-    <color name="shutter_green">#90EE90</color>
-
-    <!-- 录制按钮颜色 -->
-    <color name="record_red">@color/red</color>
-    <color name="record_stroke_red">#66FF0000</color>
-
-    <!-- 特效选择页面背景颜色 -->
-    <color name="effect_title_background">#AA696969</color>
-    <color name="effect_content_background">#AA808080</color>
 
 <!-- videolibrary  -->
     <color name="video_speed_background">#2A2A2A</color>
@@ -186,5 +205,8 @@
     <!-- 编辑页面颜色 -->
     <color name="video_edit_effect_background">#9AFFFFFF</color>
     <color name="video_edit_effect_category_text_normal">#4DFFFFFF</color>
+
+
+
 
 </resources>

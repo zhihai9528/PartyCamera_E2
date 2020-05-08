@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/black"
-    tools:context="zhihai.partycamera_e1.SpeedRecordActivity">
+    tools:context="zhihai.partycamera_e1.activity.SpeedRecordActivity">
 
     <!-- 安全区域 -->
     <View
@@ -66,7 +66,7 @@
         </LinearLayout>
 
         <!-- 倍速选择条 -->
-        <cameralibrary.widget.RecordSpeedLevelBar
+        <library.cameralibrary.widget.RecordSpeedLevelBar
             android:id="@+id/record_speed_bar"
             android:layout_width="match_parent"
             android:layout_height="@dimen/dp35"
@@ -79,7 +79,7 @@
             app:layout_constraintRight_toRightOf="parent"/>
 
         <!-- 录制按钮 -->
-        <cameralibrary.widget.RecordButton
+        <library.cameralibrary.widget.RecordButton
             android:id="@+id/btn_record"
             android:layout_width="120dp"
             android:layout_height="120dp"

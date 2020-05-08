@@ -1,5 +1,38 @@
 <resources>
-    <string name="app_name">CameraLibrary</string>
+    <string name="app_name">PartyCamera</string>
+
+<!-- MainActivity-->
+    <!-- 首页按钮 -->
+    <string name="btn_camera">滤镜相机</string>
+    <string name="btn_edit_picture">编辑图片</string>
+    <string name="btn_edit_video">编辑视频</string>
+    <string name="btn_speed_record">倍速录制测试</string>
+    <string name="btn_edit_music_merge">添加背景音乐</string>
+    <string name="btn_ff_media_record">使用 FFmpeg 录制视频</string>
+    <string name="btn_music_player">音乐播放器测试</string>
+    <string name="btn_video_player">视频播放器测试</string>
+
+    <!-- 添加背景音乐部分 -->
+    <string name="tv_test_source_voice">原声音量</string>
+    <string name="tv_test_music_voice">音乐音量</string>
+    <string name="btn_test_music_merge">添加背景音乐</string>
+
+    <!-- 视频转gif部分-->
+    <string name="tv_test_gif_start">开始位置：%1$.2f</string>
+    <string name="tv_test_gif_end">结束位置：%1$.2f</string>
+    <string name="btn_test_gif_make">转gif</string>
+
+    <string name="btn_next">下一步</string>
+    <string name="record_text">按住拍</string>
+
+
+
+<!-- FacedetectLibrary-->
+    <!--
+    <string name="app_name">FaceDetectLibrary</string>
+    -->
+
+<!-- CameraLibrary-->
 
     <string name="delete_last_video_tips">删除上一段视频？</string>
     <string name="btn_delete">删除</string>
@@ -87,6 +120,51 @@
 
 
 
+    <!--imagelibrary -->
+
+    <string name="btn_crop">裁剪</string>
+    <string name="btn_filter">滤镜</string>
+    <string name="btn_toolbox">编辑工具箱</string>
+    <string name="btn_save">保存</string>
+
+    <string name="btn_internal">内置</string>
+    <string name="btn_customize">自定义</string>
+    <string name="btn_collection">收藏</string>
+    <string name="btn_setting">设置</string>
+    <string name="btn_add">添加</string>
+
+    <!-- 裁剪页面按钮 -->
+    <string name="btn_horizontal">水平</string>
+    <string name="btn_ratio">长宽比</string>
+    <string name="btn_rotate">旋转</string>
+    <string name="btn_flip">翻转</string>
+    <string name="btn_vertical_perspective">纵向透视</string>
+    <string name="btn_horizontal_perspective">横向透视</string>
+    <string name="btn_stretch">拉伸</string>
+
+    <!-- 编辑工具箱按钮 -->
+    <string name="btn_toolbox_back">返回</string>
+    <string name="btn_adjust">调整</string>
+    <string name="btn_effect">效果</string>
+    <string name="btn_texture">纹理</string>
+    <string name="btn_blur">虚化</string>
+    <string name="btn_curve">曲线</string>
+    <string name="btn_hue_saturation">色相/饱和度</string>
+    <string name="btn_tone_separation">色调分离</string>
+    <string name="btn_color_balance">色彩平衡</string>
+
+
+    <!--pickerlibrary -->
+    <string name="album_all">所有照片</string>
+    <string name="media_empty">没有%1$s</string>
+    <string name="preview_btn_edit">编辑</string>
+    <string name="video_single_picker">单段视频</string>
+    <string name="video_multi_picker">多段视频</string>
+
+
+    <!--utilsLibrary -->
+
+
     <!-- 返回操作 -->
     <string name="back_pressed_message">退出当前操作?</string>
     <!--权限请求-->
@@ -98,28 +176,7 @@
     <string name="btn_dialog_ok">确定</string>
     <string name="music_selection">选择音乐</string>
 
-    <!-- 首页按钮 -->
-    <string name="btn_camera">滤镜相机</string>
-    <string name="btn_edit_picture">编辑图片</string>
-    <string name="btn_edit_video">编辑视频</string>
-    <string name="btn_speed_record">倍速录制测试</string>
-    <string name="btn_edit_music_merge">添加背景音乐</string>
-    <string name="btn_ff_media_record">使用 FFmpeg 录制视频</string>
-    <string name="btn_music_player">音乐播放器测试</string>
-    <string name="btn_video_player">视频播放器测试</string>
 
-    <!-- 添加背景音乐部分 -->
-    <string name="tv_test_source_voice">原声音量</string>
-    <string name="tv_test_music_voice">音乐音量</string>
-    <string name="btn_test_music_merge">添加背景音乐</string>
-
-    <!-- 视频转gif部分-->
-    <string name="tv_test_gif_start">开始位置：%1$.2f</string>
-    <string name="tv_test_gif_end">结束位置：%1$.2f</string>
-    <string name="btn_test_gif_make">转gif</string>
-
-    <string name="btn_next">下一步</string>
-    <string name="record_text">按住拍</string>
 
 
 
@@ -163,5 +220,7 @@
     <string name="video_edit_effect_cancel">撤销</string>
     <string name="video_edit_effect_category_filter">滤镜特效</string>
     <string name="video_edit_effect_category_time">时间特效</string>
+
+
 
 </resources>
