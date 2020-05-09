@@ -32,6 +32,10 @@ public class CameraSettingActivity extends AppCompatActivity {
 
     private void initView() {
         mLayoutSelectWatermark = (RelativeLayout) findViewById(R.id.layout_select_watermark);
+        mLayoutShowFacePoints = (RelativeLayout) findViewById(R.id.layout_show_face_points);
+        mTextFacePoints = (TextView) findViewById(R.id.tv_show_face_points);
+        processShowFacePoints();
+
 
         mLayoutShowFps = (RelativeLayout) findViewById(R.id.layout_show_fps);
         mTextFps = (TextView) findViewById(R.id.tv_show_fps);
@@ -52,10 +56,15 @@ public class CameraSettingActivity extends AppCompatActivity {
             int id = v.getId();
             if (id == R.id.layout_select_watermark) {
                 processSelectWatermark();
-            } else if (id == R.id.layout_show_fps) {
+            }
+            else if (id == R.id.layout_show_face_points) {
+                CameraParam.getInstance().drawFacePoints = !CameraParam.getInstance().drawFacePoints;
+                processShowFacePoints();
+            }else if (id == R.id.layout_show_fps) {
                 CameraParam.getInstance().showFps = !CameraParam.getInstance().showFps;
                 processShowFps();
             }
+
         }
     };
 
@@ -64,6 +73,11 @@ public class CameraSettingActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+
+    private void processShowFacePoints() {
+        mTextFacePoints.setText(CameraParam.getInstance().drawFacePoints
+                ? getString(R.string.show_face_points) : getString(R.string.hide_face_points));
+    }
 
     private void processShowFps() {
         mTextFps.setText(CameraParam.getInstance().showFps

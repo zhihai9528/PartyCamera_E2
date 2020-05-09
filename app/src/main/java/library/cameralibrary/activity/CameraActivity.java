@@ -13,7 +13,7 @@ import android.view.WindowManager;
 import zhihai.partycamera_e1.R;
 import library.cameralibrary.fragment.CameraPreviewFragment;
 import library.utilslibrary.utils.NotchUtils;
-
+import library.facedetectlibrary.engine.FaceTracker;
 
 /**
  * 相机预览页面
@@ -34,7 +34,16 @@ public class CameraActivity extends AppCompatActivity {
                     .replace(R.id.fragment_container, mPreviewFragment, FRAGMENT_CAMERA)
                     .commit();
         }
+        faceTrackerRequestNetwork();
     }
+
+    /**
+     * 人脸检测SDK验证，可以替换成自己的SDK
+     */
+    private void faceTrackerRequestNetwork() {
+        new Thread(() -> FaceTracker.requestFaceNetwork(CameraActivity.this)).start();
+    }
+
 
     @Override
     protected void onResume() {
